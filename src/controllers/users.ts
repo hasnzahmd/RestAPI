@@ -16,7 +16,7 @@ export const deleteUser = async (req: express.Request, res: express.Response) =>
         const {id} = req.params;
 
         const deletedUser = await deleteUserById(id);
-        return res.status(200).json(deleteUser);
+        return res.status(200).json(deletedUser);
     }
     catch (err) {
         console.log(err);
