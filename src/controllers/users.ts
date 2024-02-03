@@ -8,6 +8,6 @@ export const getAllUsers = async (req: express.Request, res: express.Response) =
     }
     catch (err) {
         console.log(err);
-        return res.status(500).send('Server error');
+        return res.status(400).send('Server error');
     }
 }
