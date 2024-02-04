@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hasnzahmd/RestAPI-TypeScript.git"
+    "url": "git+https://github.com/hasnzahmd/RestAPI.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hasnzahmd/RestAPI-TypeScript/issues"
+    "url": "https://github.com/hasnzahmd/RestAPI/issues"
   },
-  "homepage": "https://github.com/hasnzahmd/RestAPI-TypeScript#readme",
+  "homepage": "https://github.com/hasnzahmd/RestAPI#readme",
   "devDependencies": {
     "@types/lodash": "^4.14.202",
     "nodemon": "^3.0.3",
